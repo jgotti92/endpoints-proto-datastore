@@ -6,7 +6,7 @@ api_version: 1
 
 handlers:
 # Endpoints handler
-- url: /_ah/spi/.*
+- url: /_ah/api/.*
   script: main.application
 
 libraries:
